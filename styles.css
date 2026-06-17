@@ -304,10 +304,8 @@ a {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
-  padding: 28px 7%;
-  background: var(--navy-dark);
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 32px 7%;
+  background: #030712;
 }
 
 .capability {
@@ -316,15 +314,16 @@ a {
 
 .capability strong {
   display: block;
-  margin-bottom: 6px;
-  color: var(--white);
-  font-size: 0.8rem;
+  color: #ffffff;
+  font-size: 0.82rem;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.12em;
+  margin-bottom: 8px;
 }
 
 .capability span {
+  display: block;
   color: #94a3b8;
   font-size: 0.85rem;
   font-weight: 600;
